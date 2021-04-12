@@ -1,0 +1,7 @@
+C:\Users\ddbon\source\repos\Friendship\cadastro_usuarios\bin\Debug\cadastro_usuarios.exe.config
+C:\Users\ddbon\source\repos\Friendship\cadastro_usuarios\bin\Debug\cadastro_usuarios.exe
+C:\Users\ddbon\source\repos\Friendship\cadastro_usuarios\bin\Debug\cadastro_usuarios.pdb
+C:\Users\ddbon\source\repos\Friendship\cadastro_usuarios\obj\Debug\cadastro_usuarios.csprojAssemblyReference.cache
+C:\Users\ddbon\source\repos\Friendship\cadastro_usuarios\obj\Debug\cadastro_usuarios.csproj.CoreCompileInputs.cache
+C:\Users\ddbon\source\repos\Friendship\cadastro_usuarios\obj\Debug\cadastro_usuarios.exe
+C:\Users\ddbon\source\repos\Friendship\cadastro_usuarios\obj\Debug\cadastro_usuarios.pdb
