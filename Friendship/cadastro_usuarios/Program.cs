@@ -10,8 +10,9 @@ namespace cadastro_usuarios
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Esse é um teste");
-            Console.WriteLine("Testando mais uma vez");
+            Console.WriteLine("Escreva seu nome:");
+            string nome = Console.ReadLine();
+            Console.WriteLine("O nome cadastrado foi: " + nome);
             Console.ReadLine();
         }
     }
