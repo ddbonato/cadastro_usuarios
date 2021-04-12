@@ -1,7 +1,0 @@
-C:\Users\ddbon\source\repos\ProjetoDaAmizade\ProjetoDaAmizade\bin\Debug\ProjetoDaAmizade.exe.config
-C:\Users\ddbon\source\repos\ProjetoDaAmizade\ProjetoDaAmizade\bin\Debug\ProjetoDaAmizade.exe
-C:\Users\ddbon\source\repos\ProjetoDaAmizade\ProjetoDaAmizade\bin\Debug\ProjetoDaAmizade.pdb
-C:\Users\ddbon\source\repos\ProjetoDaAmizade\ProjetoDaAmizade\obj\Debug\ProjetoDaAmizade.csprojAssemblyReference.cache
-C:\Users\ddbon\source\repos\ProjetoDaAmizade\ProjetoDaAmizade\obj\Debug\ProjetoDaAmizade.csproj.CoreCompileInputs.cache
-C:\Users\ddbon\source\repos\ProjetoDaAmizade\ProjetoDaAmizade\obj\Debug\ProjetoDaAmizade.exe
-C:\Users\ddbon\source\repos\ProjetoDaAmizade\ProjetoDaAmizade\obj\Debug\ProjetoDaAmizade.pdb
