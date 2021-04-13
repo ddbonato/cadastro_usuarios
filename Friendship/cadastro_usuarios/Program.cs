@@ -11,8 +11,14 @@ namespace cadastro_usuarios
         static void Main(string[] args)
         {
             Console.WriteLine("Escreva seu nome:");
-            string nome = Console.ReadLine();
-            Console.WriteLine("O nome cadastrado foi: " + nome);
+
+            CadastroUsuarios usuario = new CadastroUsuarios();
+            usuario.nome = Console.ReadLine();
+
+            Console.WriteLine("Escreva seu sobrenome:");
+            usuario.sobrenome = Console.ReadLine();
+
+            Console.WriteLine("O nome cadastrado foi: " + usuario.juntarNome());
             Console.ReadLine();
         }
     }

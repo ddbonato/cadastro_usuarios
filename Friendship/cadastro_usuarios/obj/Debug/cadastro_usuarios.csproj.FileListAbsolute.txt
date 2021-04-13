@@ -12,3 +12,10 @@ C:\Users\ddbon\Source\Repos\ddbonato\cadastro_usuarios\Friendship\cadastro_usuar
 C:\Users\ddbon\Source\Repos\ddbonato\cadastro_usuarios\Friendship\cadastro_usuarios\obj\Debug\cadastro_usuarios.csproj.CoreCompileInputs.cache
 C:\Users\ddbon\Source\Repos\ddbonato\cadastro_usuarios\Friendship\cadastro_usuarios\obj\Debug\cadastro_usuarios.exe
 C:\Users\ddbon\Source\Repos\ddbonato\cadastro_usuarios\Friendship\cadastro_usuarios\obj\Debug\cadastro_usuarios.pdb
+C:\Users\Daniel\Source\Repos\ddbonato\cadastro_usuarios\Friendship\cadastro_usuarios\bin\Debug\cadastro_usuarios.exe.config
+C:\Users\Daniel\Source\Repos\ddbonato\cadastro_usuarios\Friendship\cadastro_usuarios\bin\Debug\cadastro_usuarios.exe
+C:\Users\Daniel\Source\Repos\ddbonato\cadastro_usuarios\Friendship\cadastro_usuarios\bin\Debug\cadastro_usuarios.pdb
+C:\Users\Daniel\Source\Repos\ddbonato\cadastro_usuarios\Friendship\cadastro_usuarios\obj\Debug\cadastro_usuarios.csprojAssemblyReference.cache
+C:\Users\Daniel\Source\Repos\ddbonato\cadastro_usuarios\Friendship\cadastro_usuarios\obj\Debug\cadastro_usuarios.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Source\Repos\ddbonato\cadastro_usuarios\Friendship\cadastro_usuarios\obj\Debug\cadastro_usuarios.exe
+C:\Users\Daniel\Source\Repos\ddbonato\cadastro_usuarios\Friendship\cadastro_usuarios\obj\Debug\cadastro_usuarios.pdb
