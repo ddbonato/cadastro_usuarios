@@ -10,24 +10,36 @@ namespace cadastro_usuarios
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Escreva seu nome:");
-
-            Usuario usuario = new Usuario();
-            usuario.nome = Console.ReadLine();
-
-            Console.WriteLine("Escreva seu sobrenome:");
-            usuario.sobrenome = Console.ReadLine();
-
-            Console.WriteLine("O nome cadastrado foi: " + usuario.juntarNome());
-            Console.ReadLine();
-
             IList<Usuario> ListaUsurios;
             ListaUsurios = new List<Usuario>();
-            
-            //Adiciona usuário a lista
-            ListaUsurios.Add(usuario);
-            Console.WriteLine("Usuário adicionado a lista");
+            string opcao = "1";
+
+            while (opcao == "1") 
+            {
+                Usuario usuario = new Usuario();
+                
+                Console.WriteLine("Escreva seu nome:");
+                usuario.nome = Console.ReadLine();
+                Console.WriteLine("Escreva seu sobrenome:");
+                usuario.sobrenome = Console.ReadLine();
+
+                Console.WriteLine("O nome cadastrado foi: " + usuario.juntarNome());
+                
+                ListaUsurios.Add(usuario);
+                Console.WriteLine("Usuário adicionado a lista");
+
+                Console.WriteLine("Deseja inserir outro nome? 1-SIM | 2-NÃO");
+                opcao = Console.ReadLine();
+            }
+
+            Console.WriteLine("A lista tem: " + ListaUsurios.Count + " itens:");
+
+
             Console.ReadLine();
+
+
+            
+
 
 
         }
