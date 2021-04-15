@@ -12,7 +12,7 @@ namespace cadastro_usuarios
         {
             Console.WriteLine("Escreva seu nome:");
 
-            CadastroUsuarios usuario = new CadastroUsuarios();
+            Usuario usuario = new Usuario();
             usuario.nome = Console.ReadLine();
 
             Console.WriteLine("Escreva seu sobrenome:");
@@ -20,6 +20,16 @@ namespace cadastro_usuarios
 
             Console.WriteLine("O nome cadastrado foi: " + usuario.juntarNome());
             Console.ReadLine();
+
+            IList<Usuario> ListaUsurios;
+            ListaUsurios = new List<Usuario>();
+            
+            //Adiciona usuário a lista
+            ListaUsurios.Add(usuario);
+            Console.WriteLine("Usuário adicionado a lista");
+            Console.ReadLine();
+
+
         }
     }
 }

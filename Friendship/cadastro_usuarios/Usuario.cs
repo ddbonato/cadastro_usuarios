@@ -1,7 +1,7 @@
 ﻿
 
 
-public class CadastroUsuarios
+public class Usuario
 {
     public string nome;
     public string sobrenome;
