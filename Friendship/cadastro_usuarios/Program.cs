@@ -34,8 +34,9 @@ namespace cadastro_usuarios
 
             Console.WriteLine("A lista tem: " + ListaUsurios.Count + " itens:");
 
-
+            Console.WriteLine("Vamos ver se o prof aceita");
             Console.ReadLine();
+
 
 
             
