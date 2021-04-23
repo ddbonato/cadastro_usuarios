@@ -12,36 +12,56 @@ namespace cadastro_usuarios
         {
             IList<Usuario> ListaUsurios;
             ListaUsurios = new List<Usuario>();
-            string opcao = "1";
+            int opcao;
 
-            while (opcao == "1") 
+            do
             {
-                Usuario usuario = new Usuario();
-                
-                Console.WriteLine("Escreva seu nome:");
-                usuario.nome = Console.ReadLine();
-                Console.WriteLine("Escreva seu sobrenome:");
-                usuario.sobrenome = Console.ReadLine();
+                opcao = SelecionarOpcao();
+                switch (opcao)
+                {
+                    case 1:
+                        ListaUsurios.Add(ObterNovoUsuario());
+                        break;
+                    case 2:
+                        
+                        break;
+                }
 
-                Console.WriteLine("O nome cadastrado foi: " + usuario.juntarNome());
-                
-                ListaUsurios.Add(usuario);
-                Console.WriteLine("Usuário adicionado a lista");
+            } while(opcao != 3 );
 
-                Console.WriteLine("Deseja inserir outro nome? 1-SIM | 2-NÃO");
-                opcao = Console.ReadLine();
+        }
+
+        private static int SelecionarOpcao() 
+        {
+            Console.WriteLine("1 - Cadastrar Usuário");
+            Console.WriteLine("2 - Listar Usuários");
+            Console.WriteLine("3 - Sair");
+            Console.WriteLine("Digite sua opção: ");
+            var opcao = Console.ReadLine();
+            var opcaoint = Int32.Parse(opcao);
+            return opcaoint;
+        }
+
+        private static Usuario ObterNovoUsuario()
+        {
+            Console.WriteLine("Escreva seu nome:");
+            var nome = Console.ReadLine();
+            Console.WriteLine("Escreva seu sobrenome:");
+            var sobrenome = Console.ReadLine();
+
+            Usuario usuario = new Usuario(nome, sobrenome);
+            return usuario;
+        }
+
+        private static void ListarUsuario(List<Usuario> lista)
+        {
+            Console.WriteLine("Listando os usuários: ");
+
+            foreach (var item in ListaUsuarios)
+            {
+                Console.WriteLine(Usuario);
             }
-
-            Console.WriteLine("A lista tem: " + ListaUsurios.Count + " itens:");
-
-
-            Console.ReadLine();
-
-
             
-
-
-
         }
     }
 }

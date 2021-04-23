@@ -3,11 +3,16 @@
 
 public class Usuario
 {
-    public string nome;
-    public string sobrenome;
+    public string Nome { get; set; }
+    public string Sobrenome { get; set; }
 
-    public string juntarNome()
+    public Usuario(string nome, string sobrenome)
     {
-        return (nome + " " + sobrenome);
+        Nome = nome;
+        Sobrenome = sobrenome;
+    }
+    public string ObterNomeCompleto()
+    {
+        return (Nome + " " + Sobrenome);
     }
 }
